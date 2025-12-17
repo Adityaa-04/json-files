@@ -1,0 +1,46 @@
+{
+  "faqs": [
+    {
+      "id": "faq_cc_001",
+      "question": "How long does it take to apply for a credit card?",
+      "answer": "Provided with all the document(s) required, it should take approximately 9 days to get your credit card approved.",
+      "category": "credit_card_application"
+    },
+    {
+      "id": "faq_cc_002",
+      "question": "What are my obligations to hold a credit card?",
+      "answer": "The minimum amount due every month shall be higher of the following (a)5% of statement outstanding or (b) sum total of all installments billed, interest, fees, other charges, amount that is over limit and 1% of the principal or Re 250",
+      "category": "credit_card_obligations"
+    },
+    {
+      "id": "faq_cc_003",
+      "question": "Will I be charged anything extra if I use my card overseas?",
+      "answer": "All overseas transactions are levied with a 3.5% transaction fee. This includes charges paid out to Visa/Master for converting overseas transactions into INR. Pl note: transactions at merchant establishments that are registered overseas even if the merchant is located in India attract a charge of 0.80% from visa/master card which is included as a part of the transaction amount in your statement.",
+      "category": "fees_and_charges"
+    },
+    {
+      "id": "faq_cc_004",
+      "question": "How much is the annual Government Service Tax?",
+      "answer": "15% on Service Charges, comprising Service Tax of 14%, Swachh Bharat Cess of 0.5% and Krishi Kalyan Cess of 0.5%. Service Tax Registration No.ST/Mumbai/CDCOS/Dn I/13/2006 under \"Credit Card, Debit Card, Charge Card or other payment card services\". No Service tax credit shall be claimed by the customer under CENVAT credit Rules 2004 in respect of charges waived or reversed.",
+      "category": "taxes"
+    },
+    {
+      "id": "faq_cc_005",
+      "question": "How much is the late payment fees?",
+      "answer": "Rs 100 for statement outstanding less than or equal to Rs 500. Rs 350 for statement outstanding between Rs 501 and Rs 5,000. Rs 500 for statement outstanding between Rs 5,001 and Rs 10,000. Rs 700 for statement outstanding greater than Rs 10,000 Example: In case there is an outstanding of Rs 7,000 on your credit card and Rs 15,000 in your Balance Transfer account, and payment is not made by the Payment Due Date. There will be a Late Payment Charge of Rs 500 in your credit card account and Rs 700 on your Balance Transfer account. The example above is for illustrative purposes only. All cards and all installment products such as Instabuy, Balance Transfer, Dial-a –Loan etc will each attract Late Payment Charges if payment is not made by the Payment Due Date.",
+      "category": "fees_and_charges"
+    },
+    {
+      "id": "faq_cc_006",
+      "question": "How much is the interest charges?",
+      "answer": "The monthly interest rate is annualized to arrive at the annualized percentage rate (APR). Monthly interest rate of 3.49% pm is annualized to arrive at an APR of 41.88% for all Standard Chartered Credit Cards. However for all Visa Infinite and Emirates World credit cards, the monthly interest rate is 3.10% pm (APR of 37.20%); and for all instant credit card variants, the monthly interest rate is 1.99% pm (APR of 23.88%). Cash transactions will attract an interest rate of 3.49% pm (APR of 41.88%).",
+      "category": "interest_rates"
+    },
+    {
+      "id": "faq_cc_007",
+      "question": "How do I report that my card has been lost or stolen?",
+      "answer": "You must notify us immediately if you become aware that your Card has been lost, stolen or misused.\n\nAhmedabad, Bangalore, Chennai, Delhi, Hyderabad, Kolkata, Mumbai, Pune\n3940 4444 / 6601 4444\n\nAllahabad, Amritsar, Bhopal, Bhubaneswar, Chandigarh, Cochin / Ernakulam, Coimbatore, Indore, Jaipur, Jalandhar, Kanpur, Lucknow, Ludhiana, Nagpur, Patna, Rajkot, Surat, Vadodara\n3940 444 / 6601 444\n\nGurgaon, Noida\n011 - 39404444 / 011 – 66014444\n\nJalgaon, Guwahati, Cuttack, Mysore, Thiruvananthpuram, Vishakhapatnam, Mathura, Proddatur, Dehradun, Saharanpur\n1800 345 1000\n\nSiliguri\n1800 345 5000",
+      "category": "card_security"
+    }
+  ]
+}

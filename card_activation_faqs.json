@@ -1,0 +1,118 @@
+{
+  "faqs": [
+    {
+      "id": "faq_ca_001",
+      "question": "What is card activation for ATM, debit and credit cards?",
+      "answer": "As part of recent industry-wide measures introduced by the Association of Banks in Singapore, all newly issued ATM, debit and credit cards will require activation by the cardholder prior to usage. This will take effect from 30 June 2012.However, ATM/debit cards which are issued at Standard Chartered branches will not require card activation.",
+      "category": "card_activation_general"
+    },
+    {
+      "id": "faq_ca_002",
+      "question": "I have just received my ATM, debit and credit card(s). Can I use my card(s) immediately?",
+      "answer": "No. You will first need to activate your card through one of the following channels – SMS, online via our website or at our branches. To activate online, please click here.",
+      "category": "card_activation_usage"
+    },
+    {
+      "id": "faq_ca_003",
+      "question": "My ATM/debit card was issued to me at one of your branches. Do I still need to activate my card?",
+      "answer": "No. You do not need to activate your ATM/debit card if you received your card from one of our branches.",
+      "category": "card_activation_exemption"
+    },
+    {
+      "id": "faq_ca_004",
+      "question": "Is my ATM/debit/credit card ready for use immediately upon activation?",
+      "answer": "Yes, this is immediate provided that you have received the acknowledgement from the Bank that your card has been successfully activated.",
+      "category": "card_activation_usage"
+    },
+    {
+      "id": "faq_ca_005",
+      "question": "I have followed your instructions and keyed in my information correctly on the SMS. However, I did not receive any acknowledgement or reply.",
+      "answer": "It may be because the mobile phone number used for sending the SMS instruction did not match the mobile phone number in our records. If you have changed your mobile phone number recently, please update your mobile phone number by calling our 24-hour Phone Banking hotline at 1800 747 7000 /+65 6747 7000 before activating your card.For security reasons, we can only activate the card when the SMS instruction to activate is sent from the mobile phone number maintained in our records.If you have not changed your mobile phone number:\nPlease try again by sending the SMS instruction in the prescribed format. If you still do not receive any acknowledgement, please call our 24-hour Phone Banking hotline at\nToll Free Local Number\n1800 747 7000\nFrom overseas +65 6747 7000",
+      "category": "card_activation_sms"
+    },
+    {
+      "id": "faq_ca_006",
+      "question": "I am currently overseas. Can I activate my card over the phone?",
+      "answer": "No, we are not able to accept any card activation request over the phone. You may activate your card via SMS or on our website.",
+      "category": "card_activation_channels"
+    },
+    {
+      "id": "faq_ca_007",
+      "question": "Can my supplementary credit cardholder activate my credit card on my behalf? Will an authorisation letter suffice?",
+      "answer": "No. Card activation can only be performed by the principal cardholder.",
+      "category": "card_activation_authorisation"
+    },
+    {
+      "id": "faq_ca_008",
+      "question": "Can I activate my ATM, debit or credit card(s) at any Standard Chartered ATM machine?",
+      "answer": "No. You may only activate your card via SMS, on our website or at our branches.",
+      "category": "card_activation_channels"
+    },
+    {
+      "id": "faq_ca_009",
+      "question": "I did not receive my One-time Password (OTP) while activating my card online. What should I do?",
+      "answer": "If you have changed your mobile phone number:\nYou will need to update your mobile phone number by calling our 24-hour Phone Banking hotline at 1800 747 7000 /+65 6747 7000 before you activate your card. For your security, we can only activate your card when the SMS is sent from the mobile phone number maintained in our records.If your mobile number has not changed:\nPlease try again. If you still do not receive any reply, please activate your card online or visit any of our branches for assistance.",
+      "category": "card_activation_otp"
+    },
+    {
+      "id": "faq_ca_010",
+      "question": "Will I incur extra charges to send an SMS for card activation?",
+      "answer": "Local SMS charges will apply, depending on your local mobile service provider.",
+      "category": "card_activation_charges"
+    },
+    {
+      "id": "faq_ca_011",
+      "question": "I have activated my card, but when I tried to make a purchase just now, it was declined.",
+      "answer": "Please call our 24-hour Phone Banking hotline at 1800 747 7000 /+65 6747 7000 for assistance.",
+      "category": "card_activation_issues"
+    },
+    {
+      "id": "faq_ca_012",
+      "question": "I am holding multiple new cards with the same last 4 digits. What should I do?",
+      "answer": "Please activate your card online or visit any of our branches.",
+      "category": "card_activation_issues"
+    },
+    {
+      "id": "faq_ca_013",
+      "question": "Can I use my Standard Chartered ATM, debit or credit card(s) if I have not activated them?",
+      "answer": "No, you will not be able to use your card if it has not been activated. Please activate your card via SMS, on our website or at our branches.",
+      "category": "card_activation_usage"
+    },
+    {
+      "id": "faq_ca_014",
+      "question": "Must I still activate my supplementary card(s) after my principal credit card has been activated?",
+      "answer": "Yes, you must activate your supplementary card(s) even after your principal credit card has been activated.",
+      "category": "card_activation_supplementary"
+    },
+    {
+      "id": "faq_ca_015",
+      "question": "Can I activate my supplementary cards first before activating my principal credit card?",
+      "answer": "Yes, you may activate your supplementary cards first before activating your principal credit card.",
+      "category": "card_activation_supplementary"
+    },
+    {
+      "id": "faq_ca_016",
+      "question": "When is the deadline for me to activate my credit card(s)?",
+      "answer": "Please activate your card(s) within 6 months from the date of issuance. Your credit card(s) will be automatically cancelled if it is not activated within 6 months from the date your card is issued to you.This cancellation does not apply to ATM and debit card(s).",
+      "category": "card_activation_deadline"
+    },
+    {
+      "id": "faq_ca_017",
+      "question": "When is the deadline for me to activate my ATM/debit card(s)?",
+      "answer": "There is no deadline for you to activate your ATM/debit card.",
+      "category": "card_activation_deadline"
+    },
+    {
+      "id": "faq_ca_018",
+      "question": "What should I do if I suspect my ATM, debit and/or credit card(s) has been tampered with?",
+      "answer": "Please notify us immediately by contacting our 24-hour Phone Banking hotline\nToll Free Local Number\n1800 747 7000\nFrom overseas +65 6747 7000",
+      "category": "card_security"
+    },
+    {
+      "id": "faq_ca_019",
+      "question": "Am I still required to activate my ATM, debit and credit card(s) if they are renewed or replaced?",
+      "answer": "Yes, please activate your card via SMS, on our website or at any of our branches.",
+      "category": "card_activation_general"
+    }
+  ]
+}

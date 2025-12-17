@@ -1,0 +1,166 @@
+{
+  "faqs": [
+    {
+      "id": "faq_001",
+      "question": "Who can apply for Online Banking?",
+      "answer": "Customers holding a Savings Account, Current Account, Deposit Account, Loan Account, or Credit Card with Standard Chartered Bank can apply. The service is available to individuals, companies, HUFs, partnership firms, and sole proprietorships.",
+      "category": "eligibility"
+    },
+    {
+      "id": "faq_002",
+      "question": "Why should I use Online Banking?",
+      "answer": "Online Banking is free, easy to apply for, and simple to use. It provides instant access to your banking, credit card, and loan accounts anytime.",
+      "category": "general"
+    },
+    {
+      "id": "faq_003",
+      "question": "What benefits does Online Banking offer?",
+      "answer": "Online Banking gives real-time access to account information, personalized services, and complete control over your banking needs from one platform.",
+      "category": "general"
+    },
+    {
+      "id": "faq_004",
+      "question": "Is Online Banking safe and secure?",
+      "answer": "Yes. Online Banking uses a unique Login ID and Password with end-to-end 128-bit SSL encryption to protect your account and transaction data.",
+      "category": "security"
+    },
+    {
+      "id": "faq_005",
+      "question": "How fast is Online Banking?",
+      "answer": "Online Banking provides instant access to account information and enables transactions to be completed within seconds.",
+      "category": "performance"
+    },
+    {
+      "id": "faq_006",
+      "question": "Is Online Banking convenient to use?",
+      "answer": "Yes. You can securely perform banking transactions from the comfort of your home or office using the internet.",
+      "category": "convenience"
+    },
+    {
+      "id": "faq_007",
+      "question": "Is Online Banking available 24x7?",
+      "answer": "Yes. Online Banking is available 24 hours a day, 365 days a year, including bank holidays.",
+      "category": "availability"
+    },
+    {
+      "id": "faq_008",
+      "question": "Can I access Online Banking from overseas?",
+      "answer": "Yes. Online Banking can be accessed worldwide except from Cuba, North Korea, Iran, Sudan, and Syria.",
+      "category": "availability"
+    },
+    {
+      "id": "faq_009",
+      "question": "Do I need special software to use Online Banking?",
+      "answer": "No special software is required. A PC with basic internet browsing capability is sufficient.",
+      "category": "technical"
+    },
+    {
+      "id": "faq_010",
+      "question": "What fund transfer services are available through Online Banking?",
+      "answer": "You can transfer funds between your own accounts, other Standard Chartered accounts across India, and accounts at other banks using NEFT and RTGS.",
+      "category": "funds_transfer"
+    },
+    {
+      "id": "faq_011",
+      "question": "What is RTGS and when can it be used?",
+      "answer": "RTGS (Real Time Gross Settlement) allows instant transfer of INR 2,00,000 or more to RTGS-enabled banks.",
+      "category": "funds_transfer"
+    },
+    {
+      "id": "faq_012",
+      "question": "How can I register for Online Banking instantly?",
+      "answer": "You can register instantly using your ATM, Debit Card, or Credit Card by validating your details with an OTP sent to your registered mobile number.",
+      "category": "registration"
+    },
+    {
+      "id": "faq_013",
+      "question": "How can I apply for Online Banking through a form?",
+      "answer": "Fill out the registration form available at branches or via Phone Banking and submit it. Your Login ID and Password will be sent to your registered mailing address within 3 working days.",
+      "category": "registration"
+    },
+    {
+      "id": "faq_014",
+      "question": "Is there any charge for Online Banking?",
+      "answer": "No. Online Banking is completely free of charge.",
+      "category": "charges"
+    },
+    {
+      "id": "faq_015",
+      "question": "When do online credit card payments reflect?",
+      "answer": "Credit card payments made online will reflect in your account on the next working day.",
+      "category": "payments"
+    },
+    {
+      "id": "faq_016",
+      "question": "What security features protect Online Banking users?",
+      "answer": "Security features include login authentication, encrypted data transmission, automatic session timeout, last login display, and prevention of multiple logins.",
+      "category": "security"
+    },
+    {
+      "id": "faq_017",
+      "question": "What is encryption and why is it used?",
+      "answer": "Encryption scrambles information during transmission to prevent unauthorized access. Online Banking uses strong encryption to protect all transmitted data.",
+      "category": "security"
+    },
+    {
+      "id": "faq_018",
+      "question": "What precautions should I take to protect my Online Banking password?",
+      "answer": "Never share your password, avoid easy-to-guess passwords, change it regularly, and ensure privacy while logging in.",
+      "category": "security"
+    },
+    {
+      "id": "faq_019",
+      "question": "What should I do if I suspect unauthorized transactions?",
+      "answer": "Immediately report the issue to Standard Chartered Phone Banking to terminate access and prevent misuse.",
+      "category": "security"
+    },
+    {
+      "id": "faq_020",
+      "question": "What are eStatements?",
+      "answer": "eStatements are electronic versions of bank and credit card statements that can be viewed and printed online in PDF format.",
+      "category": "estatements"
+    },
+    {
+      "id": "faq_021",
+      "question": "Are eStatements free of charge?",
+      "answer": "Yes. eStatements are provided free of cost.",
+      "category": "estatements"
+    },
+    {
+      "id": "faq_022",
+      "question": "How are eStatements delivered and secured?",
+      "answer": "eStatements are delivered monthly via email as password-protected PDF files.",
+      "category": "estatements"
+    },
+    {
+      "id": "faq_023",
+      "question": "What is SMS Banking?",
+      "answer": "SMS Banking allows customers to check account and credit card information using predefined SMS keywords.",
+      "category": "sms_banking"
+    },
+    {
+      "id": "faq_024",
+      "question": "Is SMS Banking charged?",
+      "answer": "SMS Banking is free, but standard SMS charges by your mobile operator may apply.",
+      "category": "sms_banking"
+    },
+    {
+      "id": "faq_025",
+      "question": "What are Banking Alerts?",
+      "answer": "Banking Alerts are SMS notifications that inform you about transactions and activities on your bank or credit card accounts.",
+      "category": "alerts"
+    },
+    {
+      "id": "faq_026",
+      "question": "Are Banking Alerts chargeable?",
+      "answer": "Yes. Banking Alerts are chargeable as per the bank’s schedule of charges.",
+      "category": "alerts"
+    },
+    {
+      "id": "faq_027",
+      "question": "How many accounts can be linked to Banking Alerts?",
+      "answer": "All your savings, current, and credit card accounts can be linked to the Banking Alerts service.",
+      "category": "alerts"
+    }
+  ]
+}

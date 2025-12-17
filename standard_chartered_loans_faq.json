@@ -1,0 +1,124 @@
+{
+  "faqs": [
+    {
+      "id": "faq_al_001",
+      "question": "What is your current interest rate for the Auto Loans?",
+      "answer": "Our interest rates vary and are competitive, for both New and Used Cars, currently one of the best on the market. Ask our consultants about the current rate.",
+      "category": "auto_loan_interest"
+    },
+    {
+      "id": "faq_al_002",
+      "question": "Do I have to have an account with you to apply for an Auto Loan facility?",
+      "answer": "Not specified.",
+      "category": "auto_loan_eligibility"
+    },
+    {
+      "id": "faq_al_003",
+      "question": "How long does it take for a loan to be approved?",
+      "answer": "Once your loan application is received at the branch, we will acknowledge receipt of your application through SMS within 24 hours.",
+      "category": "auto_loan_processing"
+    },
+    {
+      "id": "faq_al_004",
+      "question": "Do I need to have insurance on the car?",
+      "answer": "Yes, you will need to take out comprehensive insurance on your car. The bank has negotiated a very attractive rate with our insurance partners to make the premium very affordable. The bank will finance the insurance along with the loan. Terms and Conditions apply.",
+      "category": "auto_loan_insurance"
+    },
+    {
+      "id": "faq_al_005",
+      "question": "Do I need to install a car-tracking device on the Car?",
+      "answer": "Yes, you will need to install a car-tracking device on the car. The device will be installed at the car dealership through an approved supplier of the bank. The bank will finance the purchase and installation. Terms and Conditions apply.",
+      "category": "auto_loan_requirements"
+    },
+    {
+      "id": "faq_al_006",
+      "question": "Do I need to register my car in the bank's name?",
+      "answer": "The car will be jointly owned and registered in your and the bank's name. Once the loan has been repaid, the bank will facilitate transfer of the vehicle to you.",
+      "category": "auto_loan_registration"
+    },
+    {
+      "id": "faq_mt_001",
+      "question": "What is a mortgage?",
+      "answer": "A mortgage is a loan advanced to the customer by the bank towards the purchase or construction of a property. The customer provides the bank with his or her property as security.",
+      "category": "mortgage_basics"
+    },
+    {
+      "id": "faq_mt_002",
+      "question": "What is a variable interest rate?",
+      "answer": "A variable interest rate is where the interest rate changes from time to time based on the prevailing economic environment.",
+      "category": "mortgage_interest"
+    },
+    {
+      "id": "faq_mt_003",
+      "question": "Can I make lump sum payments into my loan account?",
+      "answer": "Yes. The bank allows you to make lump sum payments into your mortgage loan account. You need to advise whether the amount should be applied as a capital repayment.",
+      "category": "mortgage_payments"
+    },
+    {
+      "id": "faq_mt_004",
+      "question": "What bank charges apply when taking out a personal home loan?",
+      "answer": "There is an arrangement fee of 1% of the loan amount, with a minimum of KES 10,000.00, payable upon acceptance of the loan.",
+      "category": "mortgage_charges"
+    },
+    {
+      "id": "faq_mt_005",
+      "question": "What are the charges associated with a home loan?",
+      "answer": "Valuation fees, legal fees, stamp duty, fire insurance premiums, and life insurance premiums as applicable based on property and loan value.",
+      "category": "mortgage_charges"
+    },
+    {
+      "id": "faq_mt_006",
+      "question": "If I have a life insurance with another reputable insurance company do I have to use the Bank's Insurance Provider?",
+      "answer": "No. Customers may choose their own insurance provider subject to the bank's approval.",
+      "category": "mortgage_insurance"
+    },
+    {
+      "id": "faq_mt_007",
+      "question": "What would disqualify a customer who has applied for a home loan?",
+      "answer": "Failure to meet the bank's minimum requirements or if the property offered as security is not acceptable to the bank.",
+      "category": "mortgage_eligibility"
+    },
+    {
+      "id": "faq_mt_008",
+      "question": "If I lose my job and am not able to service my loan, what will happen to my house?",
+      "answer": "Customers should discuss repayment difficulties with the bank. Mortgage insurance options include retrenchment cover.",
+      "category": "mortgage_risk"
+    },
+    {
+      "id": "faq_ss_001",
+      "question": "What are the benefits of Salary Solution and Salary Solution Lite?",
+      "answer": "Single application form for all products and services and only one set of documents required.",
+      "category": "salary_solution"
+    },
+    {
+      "id": "faq_ss_002",
+      "question": "What fees and charges apply to Salary Solutions?",
+      "answer": "No separate fees for Salary Solution. Customers are subject to 2.5% arrangement fees and insurance fees. Fees of constituent products apply as per tariff guide.",
+      "category": "salary_solution_charges"
+    },
+    {
+      "id": "faq_so_001",
+      "question": "What are the fees and charges on the overdraft facility?",
+      "answer": "There are no monthly fees. Interest is charged only when the overdraft is utilized and only for the number of days and amount used.",
+      "category": "salary_overdraft_charges"
+    },
+    {
+      "id": "faq_so_002",
+      "question": "How long does it take for an overdraft to be approved?",
+      "answer": "Acknowledgement via SMS within 24 hours. The bank advises on status within 24 hours and normally processes the facility in 3 days if documents are complete.",
+      "category": "salary_overdraft_processing"
+    },
+    {
+      "id": "faq_so_003",
+      "question": "Do I have to have an account with Standard Chartered Bank to apply for an Unsecured overdraft?",
+      "answer": "Yes. Customers must bank with Standard Chartered. Non-customers can apply with employer confirmation to transfer salary to a new Standard Chartered Current Account.",
+      "category": "salary_overdraft_eligibility"
+    },
+    {
+      "id": "faq_so_004",
+      "question": "Do I need to have credit life insurance on the overdraft?",
+      "answer": "No, insurance cover is required on this overdraft facility.",
+      "category": "salary_overdraft_insurance"
+    }
+  ]
+}

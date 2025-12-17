@@ -1,0 +1,106 @@
+{
+  "faqs": [
+    {
+      "id": "faq_ax_001",
+      "question": "How does aXcessPlus work?",
+      "answer": "aXcessPlus Account comes with a globally valid Debit/ATM Card which allows customers to access all Standard Chartered Bank ATMs and provides instant cash at all Visa Network ATMs in India and abroad. aXcessPlus customers get free cash withdrawal facility at any Visa Network ATM in India (Charges are levied for more than 5 Non-SCB ATM transactions in a month if Average Quarterly Balance of INR 25,000 is not maintained.) The Debit Card can be used to make purchases at over 326,000 merchant outlets in India.",
+      "category": "axcessplus_account"
+    },
+    {
+      "id": "faq_ax_002",
+      "question": "In which cities do we currently offer aXcessPlus accounts?",
+      "answer": "aXcessPlus is currently offered in the following cities: Allahabad, Bhopal, Bhubaneshwar, Indore, Jalgaon, Ludhiana, Nagpur, Rajkot, Pune & Siliguri.",
+      "category": "axcessplus_account"
+    },
+    {
+      "id": "faq_dc_001",
+      "question": "What is a debit card?",
+      "answer": "The globally valid Standard Chartered Debit Card is the easiest way of accessing your bank account. A debit card allows you to purchase goods at Visa Electron merchant establishments and withdraw cash from any Visa Electron ATM in India and abroad using funds from your bank account.",
+      "category": "debit_card"
+    },
+    {
+      "id": "faq_dc_002",
+      "question": "Which ATMs can aXcessPlus customers use for free?",
+      "answer": "aXcessPlus customers can withdraw cash at any Visa Network ATM in India free of any charge (Charges are levied for more than 5 Non-SCB ATM transactions in a month if Average Quarterly Balance of INR 25,000 is not maintained). These include ATMs of ICICI Bank, HDFC Bank, HSBC, Citibank, IDBI Bank, Axis Bank, Centurion Bank, Bank of Punjab, Corporation Bank, IndusInd Bank, Kotak Mahindra Bank, Canara Bank, Dena Bank, Andhra Bank, State Bank of India, Development Credit Bank, Bank of India, Bank of Baroda, Syndicate Bank, over and above all SCB ATMs.",
+      "category": "atm_usage"
+    },
+    {
+      "id": "faq_dc_003",
+      "question": "What is the advantage of a debit card?",
+      "answer": "Debit card offers tremendous convenience in payments and helps reduce the amount of cash you need to carry. You stay in control of your finances as you can only spend what you have, since you access your own funds to make purchases and withdraw cash.",
+      "category": "debit_card"
+    },
+    {
+      "id": "faq_dc_004",
+      "question": "What is the difference between a debit card and a credit card?",
+      "answer": "A debit card gives you access to your own money whereas a credit card is a form of loan accessing a line of credit offered by the bank. Debit card is Buy Now Pay Now, credit card is Buy Now Pay Later. Debit cards have no monthly repayment or interest.",
+      "category": "debit_card"
+    },
+    {
+      "id": "faq_dc_005",
+      "question": "What are the fees for holding a Standard Chartered Debit Card?",
+      "answer": "Refer to the SOSC.",
+      "category": "fees_and_charges"
+    },
+    {
+      "id": "faq_dc_006",
+      "question": "Is there any transaction charge levied each time the Debit Card is used?",
+      "answer": "You have free access to all Standard Chartered Bank ATMs and free withdrawals at Visa Network ATMs in India. Charges apply for more than 5 Non-SCB ATM transactions per month if AQB of INR 25,000 is not maintained.",
+      "category": "fees_and_charges"
+    },
+    {
+      "id": "faq_dc_007",
+      "question": "Which outlets will accept the Standard Chartered Debit Card?",
+      "answer": "The card is accepted at all merchant establishments and ATMs that accept Visa Electron in India and abroad. Cash access at over 20,000 ATMs in India and over 10,00,000 ATMs worldwide, shopping at over 3,26,000 outlets in India and over 14 million outlets globally.",
+      "category": "debit_card_usage"
+    },
+    {
+      "id": "faq_dc_008",
+      "question": "What will be the mode of payment in case of a Debit Card?",
+      "answer": "There will be no monthly outstanding. Your account will be instantly debited for purchases and ATM withdrawals.",
+      "category": "debit_card_usage"
+    },
+    {
+      "id": "faq_dc_009",
+      "question": "What is the procedure to be followed in case of loss of the Debit Card?",
+      "answer": "Report the loss immediately by calling Phone Banking and send a letter to the bank at the address or fax number provided by Phone Banking executives.",
+      "category": "card_security"
+    },
+    {
+      "id": "faq_dc_010",
+      "question": "What are the charges I have to pay for replacement of the lost card?",
+      "answer": "As per the SOSC.",
+      "category": "fees_and_charges"
+    },
+    {
+      "id": "faq_dc_011",
+      "question": "What is the daily withdrawal limit on Platinum Debit Card?",
+      "answer": "Employee Banking customers: INR 50,000 at ATM and INR 200,000 at POS. Other customers: INR 200,000 at ATM and POS each.",
+      "category": "limits"
+    },
+    {
+      "id": "faq_dc_012",
+      "question": "What will be the time required by the bank for the processing of a Debit Card?",
+      "answer": "Your Debit Card will reach you within 3 weeks of receipt of the application form.",
+      "category": "processing_time"
+    },
+    {
+      "id": "faq_dc_013",
+      "question": "Will I be able to use my Debit Card at petrol pumps?",
+      "answer": "Yes. For applicability please refer to the SOSC.",
+      "category": "debit_card_usage"
+    },
+    {
+      "id": "faq_dc_014",
+      "question": "What will be the validity period of my Debit Card?",
+      "answer": "Your Debit Card will be valid for 7 years from the date of issue.",
+      "category": "card_validity"
+    },
+    {
+      "id": "faq_dc_015",
+      "question": "Who can be a Debit Card holder?",
+      "answer": "Only sole account holders or joint holders with 'either or survivor' mandate can become debit card holders.",
+      "category": "eligibility"
+    }
+  ]
+}
