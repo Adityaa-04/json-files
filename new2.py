@@ -20,3 +20,16 @@ with st.form(key="chat_form", clear_on_submit=True):
         use_container_width=True,
         type="primary"
     )
+
+
+
+
+
+
+
+if audio and "bytes" in audio:
+    spoken_text = offline_speech_to_text(audio["bytes"])
+
+    if spoken_text:
+        user_input = spoken_text
+        st.success(f"🎙 You said: {spoken_text}")
