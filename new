@@ -1,0 +1,9 @@
+def offline_speech_to_text(audio_bytes):
+    audio_buffer = io.BytesIO(audio_bytes)
+    data, samplerate = sf.read(audio_buffer)
+
+    recognizer = KaldiRecognizer(vosk_model, samplerate)
+    recognizer.AcceptWaveform(data.tobytes())
+
+    result = json.loads(recognizer.Result())
+    return result.get("text", "")
