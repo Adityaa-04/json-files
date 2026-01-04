@@ -33,3 +33,16 @@ if audio and "bytes" in audio:
     if spoken_text:
         user_input = spoken_text
         st.success(f"🎙 You said: {spoken_text}")
+
+
+
+
+
+st.markdown("🎤 Speak below:")
+
+webrtc_ctx = webrtc_streamer(
+    key="speech",
+    audio_processor_factory=VoskAudioProcessor,
+    media_stream_constraints={"audio": True, "video": False},
+)
+
