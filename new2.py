@@ -46,3 +46,15 @@ webrtc_ctx = webrtc_streamer(
     media_stream_constraints={"audio": True, "video": False},
 )
 
+
+
+
+
+if webrtc_ctx.audio_processor:
+    spoken_text = webrtc_ctx.audio_processor.text.strip()
+
+    if spoken_text:
+        user_input = spoken_text
+        st.success(f"🎙 You said: {spoken_text}")
+
+
