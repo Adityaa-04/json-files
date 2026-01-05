@@ -1,60 +1,64 @@
-with st.form(key="chat_form", clear_on_submit=True):
+import queue
+import sounddevice as sd
+import json
+from vosk import Model, KaldiRecognizer
 
-    col1, col2 = st.columns([5, 1])
+MODEL_PATH = "models/vosk-model-small-en-us-0.15"
 
-    with col1:
-        user_input = st.text_input(
-            "Type your message...",
-            label_visibility="collapsed"
-        )
+q = queue.Queue()
+model = Model(MODEL_PATH)
+samplerate = 16000
 
-    with col2:
-        audio = mic_recorder(
-            start_prompt="🎤",
-            stop_prompt="⏹",
-            key="mic"
-        )
+def callback(indata, frames, time, status):
+    if status:
+        print(status)
+    q.put(bytes(indata))
 
-    send_button = st.form_submit_button(
-        "Send",
-        use_container_width=True,
-        type="primary"
-    )
+def offline_speech_to_text(duration=5):
+    recognizer = KaldiRecognizer(model, samplerate)
 
+    with sd.RawInputStream(samplerate=samplerate,
+                           blocksize=8000,
+                           dtype="int16",
+                           channels=1,
+                           callback=callback):
+        print("🎙 Listening...")
+        for _ in range(int(duration * samplerate / 8000)):
+            data = q.get()
+            if recognizer.AcceptWaveform(data):
+                pass
 
-
-
-
-
-
-if audio and "bytes" in audio:
-    spoken_text = offline_speech_to_text(audio["bytes"])
-
-    if spoken_text:
-        user_input = spoken_text
-        st.success(f"🎙 You said: {spoken_text}")
+    result = json.loads(recognizer.FinalResult())
+    return result.get("text", "")
 
 
 
 
 
-st.markdown("🎤 Speak below:")
-
-webrtc_ctx = webrtc_streamer(
-    key="speech",
-    audio_processor_factory=VoskAudioProcessor,
-    media_stream_constraints={"audio": True, "video": False},
-)
 
 
 
 
 
-if webrtc_ctx.audio_processor:
-    spoken_text = webrtc_ctx.audio_processor.text.strip()
+import streamlit as st
+from speech import offline_speech_to_text
+
+st.title("🏦 Banking Chatbot")
+
+# Button to speak
+if st.button("🎙 Speak"):
+    with st.spinner("Listening..."):
+        spoken_text = offline_speech_to_text()
 
     if spoken_text:
+        st.success(f"You said: {spoken_text}")
+
+        # 🔁 Send spoken text into chatbot
         user_input = spoken_text
-        st.success(f"🎙 You said: {spoken_text}")
 
+        # TODO: replace this with your chatbot response
+        response = f"Bank bot received: {user_input}"
 
+        st.write("🤖 Bot:", response)
+    else:
+        st.warning("No speech detected")
