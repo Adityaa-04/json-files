@@ -62,3 +62,52 @@ if st.button("🎙 Speak"):
         st.write("🤖 Bot:", response)
     else:
         st.warning("No speech detected")
+
+
+
+
+
+
+
+# ===== IMPORTS =====
+import streamlit as st
+import queue
+import sounddevice as sd
+import json
+from vosk import Model, KaldiRecognizer
+
+# ===== SPEECH TO TEXT HELPER =====
+MODEL_PATH = "models/vosk-model-small-en-us-0.15"
+
+q = queue.Queue()
+model = Model(MODEL_PATH)
+samplerate = 16000
+
+def callback(indata, frames, time, status):
+    if status:
+        print(status)
+    q.put(bytes(indata))
+
+def offline_speech_to_text(duration=5):
+    recognizer = KaldiRecognizer(model, samplerate)
+
+    with sd.RawInputStream(
+        samplerate=samplerate,
+        blocksize=8000,
+        dtype="int16",
+        channels=1,
+        callback=callback
+    ):
+        for _ in range(int(duration * samplerate / 8000)):
+            data = q.get()
+            recognizer.AcceptWaveform(data)
+
+    result = json.loads(recognizer.FinalResult())
+    return result.get("text", "")
+
+# ===== STREAMLIT UI =====
+st.title("🏦 Banking Chatbot")
+
+if st.button("🎙 Speak"):
+    text = offline_speech_to_text()
+    st.success(f"You said: {text}")
