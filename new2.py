@@ -111,3 +111,6 @@ st.title("🏦 Banking Chatbot")
 if st.button("🎙 Speak"):
     text = offline_speech_to_text()
     st.success(f"You said: {text}")
+
+
+https://alphacephei.com/vosk/models
